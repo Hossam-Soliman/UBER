@@ -1,0 +1,70 @@
+
+
+
+
+
+
+.search{
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+
+    padding: 60px 80px;
+    background: #4AA02C;
+    color: white;
+    margin-bottom: 20px;
+    
+    
+        
+}
+
+
+
+.search input{
+    width:600px;
+    height: 40px;
+    
+}
+
+.search h3{
+    margin-left: 200px;  
+}
+
+
+.cards{
+    padding:0;
+    margin:200px 0 0 0;
+}
+
+.cards .card{
+    cursor: pointer;
+}
+
+
+.cards .row{
+
+    margin-right: 0;
+}
+
+
+
+
+.cards .active{
+
+    opacity:0.3;
+}
+
+
+
+
+button{
+    color: black;
+    position: fixed;
+    top: 132px;
+    z-index: 4;
+    opacity: 0.7;
+}
+

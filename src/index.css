@@ -1,0 +1,293 @@
+body{
+  font-family: Raleway;
+  background: #f0f5f7;
+  margin: 10px 30px;
+}
+
+.homepage{
+  max-width: 800px;
+  margin: 40px auto;
+  margin-bottom: 145px;
+  padding: 10px 20px;
+  background: #191E22;;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+.drivers{
+  margin-top: 60px;
+  text-align: center;
+  
+
+}
+.drivers h1{
+  text-align: center;
+  color: #373333;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -30px;
+}
+
+.homepage form{
+  max-width: 350px;
+  margin: 40px auto;
+}
+
+input{
+  
+  width: 350px;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding: 15px 0;
+  background: #eee;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.detcted-driver span.true{
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: green;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: -35px;
+}
+
+.detcted-driver span.false{
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: #ff5252;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: -35px;
+}
+
+
+button{
+
+  background: #373333;
+  border: 0;
+  padding: 10px 10px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+nav{
+  background-color: #191E22;;
+  height: 65px;
+  margin: -9px -33px;
+}
+
+
+
+nav span{
+  font-size: 17px;
+  font-family: Raleway; 
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: -80px;
+}
+
+.myNav .text-left{                        /*logo*/
+  font-size: x-large;
+  margin-left: 25px;
+  margin-top: 13px;
+  color: black !important;
+  
+}
+
+.myNav img{
+  position: absolute;
+  left: 50px;
+  top: -9px;
+  height: 56px;
+  width: 100px;
+}
+
+nav span a{
+  color: #fff;
+}
+
+.form-wrapper form{
+  margin-top: 100px;
+  text-align: -webkit-center;
+ 
+} 
+
+.form-wrapper form input{
+  display: block;
+  
+} 
+
+.table{
+  width: 70%;
+  margin: 80px auto;
+  margin-right: 180px
+}
+
+.table td span.true{
+  display: block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: green;
+  margin-top: 10px;
+ 
+}
+
+.table td span.false{
+  display: block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: #ff5252;
+  margin-top: 10px;
+ 
+}
+
+p, h1{
+  color: black
+}
+
+p{
+  font-size: 20px;
+}
+.contactus{
+  margin:40px auto;
+  max-width: 600px;
+  text-align: center;
+  margin-left: 400px;
+  
+}
+.contact-form{
+  color: #fff;
+  display:inline-grid;
+  margin-top: 20px;  
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 27px 20px;
+  background: #191E22;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.contact-form label {
+  margin-bottom: -10px;
+  padding: 0;
+  font-size: 20px;
+  }
+.contact-form input{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 35px
+  }
+
+  form textarea{
+    width: 500px;
+    height: 130px;
+    margin-top: 15px
+    }
+.contact-form button{
+  margin-top: 20px;
+  width: 60px;
+  height:30px;
+  padding: 2px;
+  background-color: blur;
+  }
+
+.contact-succ{
+  margin-top: 70px;
+}
+
+.contact-succ h1{
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+
+.contact-succ p{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.contact-succ span{
+  color: #08526d;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+.contact-succ img{
+  position: absolute;
+  left: 25%;
+  top: 260px;
+  max-width: 700px;
+}
+
+
+.HomePage{
+  margin-top: 9px
+  
+}
+
+
+.HomePage img{
+  max-height: 600px;
+  
+}
+
+.carousel-indicators li {
+  height: 0;
+  padding: 5px
+}
+
+.footer{
+  background-color: #191E22;
+  height: 60px;
+  max-width: 1110px;
+  margin: 0 auto
+}
+
+.footer p {
+  font-size: 18px;
+  margin-top: 18px;
+  color: #fff;
+  
+}
+
+.footer ul{
+  float: right
+}
+
+.footer ul li{
+  float: left;
+  padding:0;
+  cursor: pointer;
+  
+}
+
+.map{
+  
+  position: absolute;
+  top: 100px;
+  left: 190px
+}
